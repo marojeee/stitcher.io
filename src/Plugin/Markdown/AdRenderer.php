@@ -20,6 +20,8 @@ class AdRenderer implements InlineRendererInterface
         '{{ cta:flp }}' => __DIR__ . '/../../../resources/view/_partials/cta_front_line.twig',
         '{{ cta:flp8 }}' => __DIR__ . '/../../../resources/view/_partials/cta_front_line_php8.twig',
         '{{ cta:flp_mail }}' => __DIR__ . '/../../../resources/view/_partials/cta_front_line_mail.twig',
+        '{{ cta:blogs_mail }}' => __DIR__ . '/../../../resources/view/_partials/cta_blogs_mail.twig',
+        '{{ cta:blogs_mail_short }}' => __DIR__ . '/../../../resources/view/_partials/cta_blogs_mail_short.twig',
     ];
 
     public function __construct()
